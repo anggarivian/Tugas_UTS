@@ -93,6 +93,87 @@ span {
     padding: 28px;
 }
 
-.endheader img {
+.endheader .img-fluid {
     height: 80vh;
+    background-size: cover;
+}
+
+.endheader h1 {
+    margin-top: -630px;
+    font-size: 90px;
+    font-weight: bolder;
+    opacity: 0.8;
+}
+
+.endheader .btn {
+    background-color: rgb(211, 22, 22);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 400px;
+
+}
+
+.endheader .btn:hover {
+    background-color: #181818;
+}
+
+.sosmed {
+    margin-top: 200px;
+}
+
+.sosmed a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sosmed .col {
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.sosmed .col:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.profile {
+    background-color: #3f3f3fb6;
+    border-radius: 50px;
+}
+
+.profile .card {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: #beab89;
+    border-radius: 50px;
+}
+
+.profile img {
+    height: 200px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.profile h5 {
+    padding-top: 30px;
+    color: #beab89;
+}
+
+.profile h1 {
+    padding-top: 30px;
+    color: #beab89;
+}
+
+.profile p {
+    font-weight: 300;
 }
